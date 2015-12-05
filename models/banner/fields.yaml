@@ -1,0 +1,18 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    tag:
+        label: Referência
+        commentAbove: Não modifique esse valor!
+
+    url:
+        label: URL (com http://)
+
+    image:
+        label: Banner
+        commentAbove: 1900px x 1000px ou proporcional
+        type: fileupload
+        mode: image

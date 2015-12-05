@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: genius.banners::lang.banner.label
+
+# Model Form Field configuration
+form: $/genius/banners/models/banner/fields.yaml
+
+# Model Class name
+modelClass: Genius\Banners\Models\Banner
+
+# Default redirect location
+defaultRedirect: genius/banners/banners
+
+# Create page
+create:
+    title: genius.banners::lang.banner.create_title
+    redirect: genius/banners/banners/update/:id
+    redirectClose: genius/banners/banners
+
+# Update page
+update:
+    title: genius.banners::lang.banner.update_title
+    redirect: genius/banners/banners
+    redirectClose: genius/banners/banners
+
+# Preview page
+preview:
+    title: genius.banners::lang.banner.preview_title
